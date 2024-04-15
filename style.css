@@ -5,10 +5,15 @@
   margin: 0;
 }
 
+#title {
+  width: fit-content;
+  margin: auto;
+}
+
 #container {
   border: 1px solid black;
-  width: 960px;
-  height: 960px;
+  width: 480px;
+  height: 480px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
