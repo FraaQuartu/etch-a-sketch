@@ -1,8 +1,10 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  border: 0;
-  margin: 0;
+}
+
+button#grid-size {
+  display: block;
+  margin: 0 auto 10px auto;
 }
 
 #title {
