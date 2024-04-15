@@ -13,7 +13,11 @@ const addSquare = function(row) {
   newDiv.style.flex = "1";
   newDiv.style.border = "1px solid black";
   newDiv.addEventListener("mouseover", (e) => {
-    e.target.style.backgroundColor = "black";
+    let r = Math.random() * 255;
+    let g = Math.random() * 255;
+    let b = Math.random() * 255;
+    let bgColor = `rgb(${r}, ${g}, ${b})`;
+    e.target.style.backgroundColor = bgColor;
   });
   row.appendChild(newDiv);
   return newDiv;
